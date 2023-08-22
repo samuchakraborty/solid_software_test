@@ -1,1 +1,8 @@
 include: package:solid_lints/analysis_options.yaml
+
+
+linter:
+  rules:
+    - sort_pub_dependencies
+    - use_key_in_widget_constructors
+    - public_member_api_docs
